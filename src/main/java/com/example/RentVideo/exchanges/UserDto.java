@@ -1,5 +1,10 @@
-package com.example.RentVideo.dto;
+package com.example.RentVideo.exchanges;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
 public class UserDto {
     
     String email;

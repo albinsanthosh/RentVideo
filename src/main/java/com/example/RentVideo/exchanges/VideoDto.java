@@ -1,5 +1,8 @@
-package com.example.RentVideo.dto;
+package com.example.RentVideo.exchanges;
 
+import lombok.Data;
+
+@Data
 public class VideoDto {
     
     String title;
