@@ -7,10 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.example.RentVideo.entity.Video;
+import com.example.RentVideo.exception.ResourceNotFoundException;
 import com.example.RentVideo.exchanges.VideoDto;
 import com.example.RentVideo.mapper.VideoMapper;
 import com.example.RentVideo.repository.VideoRepository;
-import com.example.exception.ResourceNotFoundException;
 
 @Service
 public class VideoService {

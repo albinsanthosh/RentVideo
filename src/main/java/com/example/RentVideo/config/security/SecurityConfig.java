@@ -49,7 +49,6 @@ public class SecurityConfig {
         return configuration.getAuthenticationManager();
     }
 
-    //To fix the deprecation warning, implement the UserDetailsService interface in your UserService class and inject it as a UserDetailsService instead of UserService.
     @Bean
     AuthenticationProvider authenticationProvider(){
         DaoAuthenticationProvider authenticationProvider = new DaoAuthenticationProvider();
